@@ -1,0 +1,8 @@
+name: Greeting1st
+on:push
+jobs:
+     greet:
+     runs -on: ubuntu -latest 
+     steps:
+     -name : "Best Project"
+     run: echo "hello World"
